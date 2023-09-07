@@ -1,3 +1,3 @@
-# Desafios-Beecrowd
-Repositório para armazenar os enunciados que faço no Beecrowd pra praticar lógica de programação.
+# Estudos
+Repositório para armazenar os desafios de código e exemplos praticos dos cursos de java que estou fazendo.
 
