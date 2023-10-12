@@ -4,7 +4,7 @@ package Filter;
 public class Aluno {
    
     final String nome;
-    final double nota;
+    public final double nota;
 
 
     public Aluno(String nome, double nota) {
