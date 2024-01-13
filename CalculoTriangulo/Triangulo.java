@@ -15,7 +15,7 @@ public static void main(String[] args) {
 
   if(A + B > C &&A + C > B && B + C > A){
     double perimetro = A + B + C;
-    
+    System.out.printf("Perimetro = %.1f\n", perimetro);
   } 
     
   
