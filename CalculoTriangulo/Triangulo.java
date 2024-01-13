@@ -13,7 +13,11 @@ public static void main(String[] args) {
  double B = entrada.nextDouble();
  double C = entrada.nextDouble();
 
-
+  if(A + B > C &&A + C > B && B + C > A){
+    
+  } 
+    
+  
 
 
 
