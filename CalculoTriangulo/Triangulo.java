@@ -18,6 +18,7 @@ public static void main(String[] args) {
     System.out.printf("Perimetro = %.1f\n", perimetro);
   } else {
     double area = (B + A) / 2 * C;
+    System.out.printf("Area = %.1f\n", area);
   }
     
   
