@@ -14,6 +14,7 @@ public static void main(String[] args) {
  double C = entrada.nextDouble();
 
   if(A + B > C &&A + C > B && B + C > A){
+    double perimetro = A + B + C;
     
   } 
     
