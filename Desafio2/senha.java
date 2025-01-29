@@ -8,6 +8,7 @@ public class senha{
        Scanner scanner = new Scanner(System.in); 
        
        System.out.println("Digite a senhapara verificar a força: "); 
+       String senha = scanner.nextLine(); 
      
      }
 
