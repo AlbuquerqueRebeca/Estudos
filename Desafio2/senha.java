@@ -12,6 +12,7 @@ public class senha{
        scanner.close();
        
        String resultado = verificarForcaSenha(senha); 
+       System.out.println(resultado); 
       }
 
 
