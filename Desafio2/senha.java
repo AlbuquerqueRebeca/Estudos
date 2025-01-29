@@ -32,7 +32,7 @@ public class senha{
 
               //verifica comprimento minimo e criterios de validaçao
               if(senha.length()< comprimentoMinimo){ 
-                
+                return "Sua senha e muito curta. Recomenda-se no minimo 8 caracteres.";
               }
 
 
