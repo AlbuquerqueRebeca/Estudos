@@ -27,6 +27,14 @@ public class senha{
             boolean temCaractereEspecial = Pattern.compile("\\w").matcher(senha).find();
             boolean temSequenciaComun = senha.matches(".*(?i)123456.*|.*(?i)abcdef.*"); 
             boolean temPalavraComun = senha.equalsIgnoreCase("password") || senha.equalsIgnoreCase("123456") || senha.equalsIgnoreCase("qwerty");
+          
+
+
+              //verifica comprimento minimo e criterios de validaçao
+              if(senha.length()< comprimentoMinimo){ 
+                
+              }
+
 
         }
 
