@@ -16,6 +16,7 @@ public class senha{
       }
        
         public static String verificandoForcaSenha(String senha){ 
+            int comprimentoMinimo = 8; 
 
         }
 
