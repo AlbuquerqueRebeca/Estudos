@@ -24,6 +24,7 @@ public class senha{
             boolean temLetraMaiuscula = Pattern.compile("[A-Z]").matcher(senha).find(); 
             boolean temLetraMinuscula = Pattern.compile("[a-z]").matcher(senha).find();
             boolean temNumero = Pattern.compile("\\d").matcher(senha).find();  
+            boolean temCaractereEspecial = Pattern.compile("\\w").matcher(senha).find(); 
 
         }
 
