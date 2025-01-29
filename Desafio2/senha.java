@@ -26,6 +26,7 @@ public class senha{
             boolean temNumero = Pattern.compile("\\d").matcher(senha).find();  
             boolean temCaractereEspecial = Pattern.compile("\\w").matcher(senha).find();
             boolean temSequenciaComun = senha.matches(".*(?i)123456.*|.*(?i)abcdef.*"); 
+            boolean temPalavraComun = senha.equalsIgnoreCase("password") || senha.equalsIgnoreCase("123456") || senha.equalsIgnoreCase("qwerty");
 
         }
 
