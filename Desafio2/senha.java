@@ -14,7 +14,10 @@ public class senha{
        String resultado = verificarForcaSenha(senha); 
        System.out.println(resultado); 
       }
+       
+        public static String verificandoForcaSenha(String senha){ 
 
+        }
 
 
 
