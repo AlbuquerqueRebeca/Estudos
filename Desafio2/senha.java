@@ -34,7 +34,7 @@ public class senha{
               if(senha.length()< comprimentoMinimo){ 
                 return "Sua senha e muito curta. Recomenda-se no minimo 8 caracteres.";
               }else if(!temLetraMaiuscula || !temLetraMinuscula || !temNumero || ! temCaractereEspecial){ 
-
+                return "Sua senha não atende aos requisitos de segurança."; 
               }
               
 
