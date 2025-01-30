@@ -37,7 +37,10 @@ public class senha{
                 return "Sua senha não atende aos requisitos de segurança."; 
               }else if(temSequenciaComum || temPalavraComum){ 
                     return "Sua senha nao atende aos requsitos de seguranca. Evite sequencia comum e palavras comuns"; 
+              }else{
+                return "Sua senha atende aos requisitos de seguranca. Parabens!"; 
               }
+
               
 
               }
