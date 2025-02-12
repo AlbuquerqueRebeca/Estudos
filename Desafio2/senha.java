@@ -12,7 +12,7 @@ public class senha{
        String senha = scanner.nextLine(); 
        scanner.close();
        
-       String resultado = verificarForcaSenha(senha); 
+       String resultado = verificandoForcaSenha(senha); 
        System.out.println(resultado); 
       }
        
@@ -35,7 +35,7 @@ public class senha{
                 return "Sua senha e muito curta. Recomenda-se no minimo 8 caracteres.";
               }else if(!temLetraMaiuscula || !temLetraMinuscula || !temNumero || ! temCaractereEspecial){ 
                 return "Sua senha não atende aos requisitos de segurança."; 
-              }else if(temSequenciaComum || temPalavraComum){ 
+              }else if(temSequenciaComun || temPalavraComun){ 
                     return "Sua senha nao atende aos requsitos de seguranca. Evite sequencia comum e palavras comuns"; 
               }else{
                 return "Sua senha atende aos requisitos de seguranca. Parabens!"; 
@@ -78,4 +78,3 @@ public class senha{
 
 
     
-}
