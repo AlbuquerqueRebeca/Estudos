@@ -31,6 +31,7 @@ public class regras {
             System,out.println("2.Numero minimo de servidores:\" + numeroMinimoServidores"); 
         }
         
+        scanner.close(); 
     }
     
 }
