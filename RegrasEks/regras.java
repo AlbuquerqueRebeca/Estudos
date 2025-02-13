@@ -21,6 +21,8 @@ public class regras {
 
         if(numeroMinimoNodes <= 1){
             System.out.println("1.Recomendamos usar um unico node"); 
+        }else{
+            System.out.println("1.Numero minimo de nodes:\" + numeroMinimoNodes"); 
         }
         
     }
