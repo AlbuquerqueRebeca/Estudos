@@ -17,6 +17,11 @@ public class regras {
         int numeroMinimoNodes = (numeroTotalPods + podsPorNode - 1) / podsPorNode; 
 
         int numeroMinimoServidores = (numeroTotalPods + podsPorServidor - 1) / podsPorServidor;
+
+
+        if(numeroMinimoNodes <= 1){
+            System.out.println("1.Recomendamos usar um unico node"); 
+        }
         
     }
     
