@@ -13,6 +13,8 @@ public class regras {
         Scanner scanner = new Scanner(System.in); 
 
         int numeroTotalPods = scanner.nextInt(); 
+
+        int numeroMinimoNodes = (numeroTotalPods + podsPorNode - 1) / podsPorNode; 
         
     }
     
