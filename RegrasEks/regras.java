@@ -15,6 +15,8 @@ public class regras {
         int numeroTotalPods = scanner.nextInt(); 
 
         int numeroMinimoNodes = (numeroTotalPods + podsPorNode - 1) / podsPorNode; 
+
+        int numeroMinimoServidores = (numeroTotalPods + podsPorServidor - 1) / podsPorServidor;
         
     }
     
