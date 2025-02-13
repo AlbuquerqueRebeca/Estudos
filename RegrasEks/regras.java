@@ -27,6 +27,8 @@ public class regras {
 
         if(numeroMinimoServidores <= 1 ){
             System.out.println("Recomendamos usar um unico servidor"); 
+        }else{
+            System,out.println("2.Numero minimo de servidores:\" + numeroMinimoServidores"); 
         }
         
     }
