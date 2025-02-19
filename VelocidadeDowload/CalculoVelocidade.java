@@ -16,8 +16,9 @@ public class CalculoVelocidade {
         
         scanner.close();
    }
-     public static double calcularVelocidadeDowload(double distanciaServidores. double velocidadePlano){ 
-
+     public static double calcularVelocidadeDowload(double distanciaServidores, double velocidadePlano){ 
+        
+        return  velocidadePlano / (+1(distanciaServidores / 100)); 
      }
 
 
