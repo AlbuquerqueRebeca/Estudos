@@ -8,6 +8,7 @@ public class CalculoVelocidade {
         Scanner scanner = new Scanner(System.in); 
 
         double distanciaServidores = scanner.nextDouble(); 
+        double velocidadePlano = scanner.nextDouble(); 
    }
     
 }
