@@ -9,6 +9,8 @@ public class CalculoVelocidade {
 
         double distanciaServidores = scanner.nextDouble(); 
         double velocidadePlano = scanner.nextDouble(); 
+
+        double velocidadeDowloadEstimada = calcularVelocidadeDowload(distanciaServidores, velocidadePlano); 
    }
     
 }
