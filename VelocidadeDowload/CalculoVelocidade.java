@@ -12,7 +12,9 @@ public class CalculoVelocidade {
 
         double velocidadeDowloadEstimada = calcularVelocidadeDowload(distanciaServidores, velocidadePlano); 
 
-        System.out.println(String.format("%.2f", velocidadeDowloadEstimada)); 
+        System.out.println(String.format("%.2f", velocidadeDowloadEstimada));
+        
+        scanner.close();
    }
     
 }
