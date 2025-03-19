@@ -18,7 +18,7 @@ public class CalculoVelocidade {
    }
      public static double calcularVelocidadeDowload(double distanciaServidores, double velocidadePlano){ 
         
-        return  velocidadePlano / (1 + (distanciaServidores / 100));  
+        return  velocidadePlano / (1 +(distanciaServidores / 100));  
      }
 
 
