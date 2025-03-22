@@ -8,7 +8,9 @@ public class LeituraInalterado {
         Scanner scanner = new Scanner(System.in);
         
         int i = scanner.nextInt(); 
-        double d = scanner.nextDouble(); 
+        double d = scanner.nextDouble();
+        scanner.nextLine();
+        String s = scanner.nextLine();  
         
     }
     
