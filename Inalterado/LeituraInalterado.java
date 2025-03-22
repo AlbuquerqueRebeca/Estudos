@@ -11,6 +11,14 @@ public class LeituraInalterado {
         double d = scanner.nextDouble();
         scanner.nextLine();
         String s = scanner.nextLine();  
+
+
+        System.out.println("String: " + s);
+        System.out.println("Double: " + d);
+        System.out.println("Int: " + i); 
+
+
+        scanner.close(); 
         
     }
     
