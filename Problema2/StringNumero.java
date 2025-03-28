@@ -15,6 +15,9 @@ public class StringNumero {
             String s = scanner.next();
             int x = scanner.nextInt();
 
+
+            System.out.printf("%-15s%03d\n", s , x);
+
         }
 
         
