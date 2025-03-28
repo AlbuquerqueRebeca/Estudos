@@ -9,6 +9,11 @@ public class StringNumero {
         Scanner scanner = new Scanner(System.in); 
 
         System.out.println("================================");
+
+        for(int i = 0; i < 3; i ++){ 
+
+        }
+
         
     }
     
