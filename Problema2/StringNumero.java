@@ -13,6 +13,7 @@ public class StringNumero {
         for(int i = 0; i < 3; i ++){ 
 
             String s = scanner.next();
+            int x = scanner.nextInt();
 
         }
 
