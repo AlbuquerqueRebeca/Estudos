@@ -19,7 +19,7 @@ public class StringNumero {
             System.out.printf("%-15s%03d\n", s , x);
 
         }
-
+           System.out.println("================================"); 
         
     }
     
