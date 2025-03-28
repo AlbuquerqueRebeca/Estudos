@@ -21,6 +21,7 @@ public class StringNumero {
         }
            System.out.println("================================"); 
         
+           scanner.close(); 
     }
     
 }
