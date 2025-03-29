@@ -18,6 +18,8 @@ public enum potenciaN{
      }
       System.out.println(potencia); 
 
+      scanner.close(); 
+
 
 
 
