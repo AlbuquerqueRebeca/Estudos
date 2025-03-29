@@ -10,6 +10,8 @@ public enum potenciaN{
 
      int N = scanner.nextInt(); 
 
+     int potencia = 0; 
+
 
 
 
