@@ -16,7 +16,7 @@ public enum potenciaN{
       potencia ++ ; 
       N /= 2; 
      }
-
+      System.out.println(potencia); 
 
 
 
