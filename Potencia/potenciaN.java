@@ -14,6 +14,7 @@ public enum potenciaN{
 
      while(N % 2 == 0){ 
       potencia ++ ; 
+      N /= 2; 
      }
 
 
