@@ -13,7 +13,7 @@ public enum potenciaN{
      int potencia = 0; 
 
      while(N % 2 == 0){ 
-
+      potencia ++ ; 
      }
 
 
