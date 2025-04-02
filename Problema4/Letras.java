@@ -6,7 +6,8 @@ public class Letras{
 
         Scanner scanner = new Scanner(System.in); 
   
-
+         int A = scanner.nextInt(); 
+         
 
 
 
