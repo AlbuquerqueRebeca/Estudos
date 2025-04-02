@@ -12,6 +12,8 @@ public class Letras{
 
          if(A > B){
             System.out.println("aabbaabb");
+         }else if(A < B){
+            System.out.println("bbabb");
          }
          
 
