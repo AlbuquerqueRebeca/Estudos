@@ -18,6 +18,7 @@ public class Letras{
             System.out.println("ababab");
          }
          
+          scanner.close(); 
 
 
 
