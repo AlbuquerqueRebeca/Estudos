@@ -8,6 +8,11 @@ public class Letras{
   
          int A = scanner.nextInt(); 
          int B = scanner.nextInt(); 
+
+
+         if(A > B){
+            System.out.println("aabbaabb");
+         }
          
 
 
