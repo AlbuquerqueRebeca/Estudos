@@ -16,7 +16,7 @@ public class Multiplos10{
 
     }
 
-
+     scanner.close(); 
 
 
 
