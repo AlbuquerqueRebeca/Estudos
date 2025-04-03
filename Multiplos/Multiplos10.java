@@ -11,6 +11,8 @@ public class Multiplos10{
     int N = scanner.nextInt();
     
     for(int x = 1; x < 10; x ++){ 
+        
+        System.out.println(N + " x " + x + " = " + N * x);
 
     }
 
