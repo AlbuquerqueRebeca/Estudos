@@ -8,7 +8,12 @@ public class Multiplos10{
         
     Scanner scanner = new Scanner(System.in);
 
-    int N = scanner.nextInt(); 
+    int N = scanner.nextInt();
+    
+    for(int x = 1; x < 10; x ++){ 
+
+    }
+
 
 
 
