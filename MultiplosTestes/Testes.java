@@ -7,7 +7,9 @@ public static void main(String[] args) {
 int n = 0; 
 
 
-for(int i = 0; i <= n;) 
+for(int i = 0; i <= n; i ++){
+    
+} 
 
 
 
